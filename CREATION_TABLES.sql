@@ -1,6 +1,5 @@
 -- Création de la base de données
 CREATE DATABASE IF NOT EXISTS transport_logistique;
-USE transport_logistique;
 
 -- Création de la table "entrepots"
 CREATE TABLE entrepots (

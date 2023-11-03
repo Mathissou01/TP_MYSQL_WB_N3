@@ -19,3 +19,8 @@ INSERT INTO expeditions (date_expedition, id_entrepot_source, id_entrepot_destin
     ('2023-09-14', 3, 5, 350.0, 'Livré'),
     ('2023-10-19', 5, 2, 170.0, 'En attente');
    
+
+--Update de ma table expedictions
+UPDATE expeditions SET date_reception = '2023-01-16' WHERE id = "1"
+
+UPDATE expeditions SET statut = 'En attente' WHERE id = "2"

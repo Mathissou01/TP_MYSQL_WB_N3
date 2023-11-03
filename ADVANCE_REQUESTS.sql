@@ -53,4 +53,4 @@ WHERE exp.date_expedition >= CURDATE() - INTERVAL 30 DAY;
 -- Affichez les expéditions qui ont été livrées dans un délai de moins de 5 jours ouvrables.
 SELECT *
 FROM expeditions
-WHERE statut = 'Livré' AND DATEDIFF(date_expedition, CURDATE()) <= 5;
+WHERE statut = 'Livré' AND DATEDIFF(date_reception, date_expedition) <= 5;
