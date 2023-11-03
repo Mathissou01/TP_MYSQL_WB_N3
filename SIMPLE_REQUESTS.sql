@@ -10,3 +10,6 @@ SELECT * FROM expeditions WHERE statut = 'En cours';
 
 -- Affichez toutes les expéditions livrées (statut "Livré") :
 SELECT * FROM expeditions WHERE statut = 'Livré';
+
+-- Affichez tout mes pays :
+SELECT * FROM countries;
